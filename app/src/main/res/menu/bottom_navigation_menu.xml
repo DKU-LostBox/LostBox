@@ -2,18 +2,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/menu_home"
-        android:icon="@android:drawable/btn_plus"
-        android:title="홈" />
+        android:icon="@drawable/box"
+        android:title="Lost" />
     <item
         android:id="@+id/menu_board"
-        android:icon="@android:drawable/btn_star_big_on"
-        android:title="게시판" />
+        android:icon="@drawable/found"
+        android:title="Found" />
     <item
         android:id="@+id/menu_about"
-        android:icon="@android:drawable/sym_action_chat"
-        android:title="소개" />
+        android:icon="@drawable/chat"
+        android:title="Chat" />
     <item
         android:id="@+id/menu_contact"
-        android:icon="@drawable/ic_launcher_foreground"
-        android:title="문의" />
+        android:icon="@drawable/account"
+        android:title="Mypage" />
 </menu>

@@ -11,10 +11,10 @@
     <FrameLayout
         android:id="@+id/frameLayout_mainContent"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="675dp"
         android:layout_above="@+id/bottomNavigationView"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="0dp"
         android:layout_marginBottom="0dp"
         tools:context=".MainActivity" />
 
@@ -23,6 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
         android:background="?android:attr/windowBackground"
         app:menu="@menu/bottom_navigation_menu" />
 
